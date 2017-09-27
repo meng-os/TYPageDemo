@@ -251,7 +251,6 @@
 				TargetAttributes = {
 					E4EA07611F7BDB0700E1D94D = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = AVDM6B7733;
 						ProvisioningStyle = Automatic;
 					};
 					E4EA077A1F7BDB0700E1D94D = {
@@ -517,11 +516,11 @@
 			baseConfigurationReference = 5D537A2D8DB2B5EDA45933DD /* Pods-TYPageDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = AVDM6B7733;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TYPageDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jjg.limeng.test;
+				PRODUCT_BUNDLE_IDENTIFIER = test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -531,11 +530,11 @@
 			baseConfigurationReference = 553389E3D686EC3FE057AABE /* Pods-TYPageDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = AVDM6B7733;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TYPageDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jjg.limeng.test;
+				PRODUCT_BUNDLE_IDENTIFIER = test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
