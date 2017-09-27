@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46CE817532B05DD1B28D3C77 /* libPods-TYPageDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9BE6C58C5AA0364384FACC /* libPods-TYPageDemo.a */; };
+		E4EA07671F7BDB0700E1D94D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EA07661F7BDB0700E1D94D /* main.m */; };
+		E4EA076A1F7BDB0700E1D94D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EA07691F7BDB0700E1D94D /* AppDelegate.m */; };
+		E4EA076D1F7BDB0700E1D94D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EA076C1F7BDB0700E1D94D /* ViewController.m */; };
+		E4EA07721F7BDB0700E1D94D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4EA07711F7BDB0700E1D94D /* Assets.xcassets */; };
+		E4EA07751F7BDB0700E1D94D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4EA07731F7BDB0700E1D94D /* LaunchScreen.storyboard */; };
+		E4EA07801F7BDB0700E1D94D /* TYPageDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EA077F1F7BDB0700E1D94D /* TYPageDemoTests.m */; };
+		E4EA078B1F7BDB0700E1D94D /* TYPageDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EA078A1F7BDB0700E1D94D /* TYPageDemoUITests.m */; };
+		E4EA079D1F7BDDD100E1D94D /* MyPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EA079C1F7BDDD100E1D94D /* MyPageController.m */; };
+		E4EA07A01F7BDEFD00E1D94D /* NewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EA079F1F7BDEFD00E1D94D /* NewViewController.m */; };
+		E4EA07A31F7BE3B100E1D94D /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EA07A21F7BE3B100E1D94D /* PageViewController.m */; };
+		E4EA07A61F7BE5F500E1D94D /* MyNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EA07A51F7BE5F500E1D94D /* MyNavigationController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4EA077C1F7BDB0700E1D94D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4EA075A1F7BDB0700E1D94D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4EA07611F7BDB0700E1D94D;
+			remoteInfo = TYPageDemo;
+		};
+		E4EA07871F7BDB0700E1D94D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4EA075A1F7BDB0700E1D94D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4EA07611F7BDB0700E1D94D;
+			remoteInfo = TYPageDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		553389E3D686EC3FE057AABE /* Pods-TYPageDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYPageDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TYPageDemo/Pods-TYPageDemo.release.xcconfig"; sourceTree = "<group>"; };
+		5D537A2D8DB2B5EDA45933DD /* Pods-TYPageDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYPageDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TYPageDemo/Pods-TYPageDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		9B9BE6C58C5AA0364384FACC /* libPods-TYPageDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TYPageDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4EA07621F7BDB0700E1D94D /* TYPageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYPageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4EA07661F7BDB0700E1D94D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E4EA07681F7BDB0700E1D94D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E4EA07691F7BDB0700E1D94D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E4EA076B1F7BDB0700E1D94D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E4EA076C1F7BDB0700E1D94D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E4EA07711F7BDB0700E1D94D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4EA07741F7BDB0700E1D94D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E4EA07761F7BDB0700E1D94D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4EA077B1F7BDB0700E1D94D /* TYPageDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TYPageDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4EA077F1F7BDB0700E1D94D /* TYPageDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYPageDemoTests.m; sourceTree = "<group>"; };
+		E4EA07811F7BDB0700E1D94D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4EA07861F7BDB0700E1D94D /* TYPageDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TYPageDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4EA078A1F7BDB0700E1D94D /* TYPageDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYPageDemoUITests.m; sourceTree = "<group>"; };
+		E4EA078C1F7BDB0700E1D94D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4EA079B1F7BDDD100E1D94D /* MyPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPageController.h; sourceTree = "<group>"; };
+		E4EA079C1F7BDDD100E1D94D /* MyPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPageController.m; sourceTree = "<group>"; };
+		E4EA079E1F7BDEFD00E1D94D /* NewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewViewController.h; sourceTree = "<group>"; };
+		E4EA079F1F7BDEFD00E1D94D /* NewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewViewController.m; sourceTree = "<group>"; };
+		E4EA07A11F7BE3B100E1D94D /* PageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageViewController.h; sourceTree = "<group>"; };
+		E4EA07A21F7BE3B100E1D94D /* PageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageViewController.m; sourceTree = "<group>"; };
+		E4EA07A41F7BE5F500E1D94D /* MyNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNavigationController.h; sourceTree = "<group>"; };
+		E4EA07A51F7BE5F500E1D94D /* MyNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNavigationController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4EA075F1F7BDB0700E1D94D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46CE817532B05DD1B28D3C77 /* libPods-TYPageDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4EA07781F7BDB0700E1D94D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4EA07831F7BDB0700E1D94D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E6084028A1B7B9F191DE0F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B9BE6C58C5AA0364384FACC /* libPods-TYPageDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		802F628F12F2860A719FC0EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D537A2D8DB2B5EDA45933DD /* Pods-TYPageDemo.debug.xcconfig */,
+				553389E3D686EC3FE057AABE /* Pods-TYPageDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E4EA07591F7BDB0700E1D94D = {
+			isa = PBXGroup;
+			children = (
+				E4EA07641F7BDB0700E1D94D /* TYPageDemo */,
+				E4EA077E1F7BDB0700E1D94D /* TYPageDemoTests */,
+				E4EA07891F7BDB0700E1D94D /* TYPageDemoUITests */,
+				E4EA07631F7BDB0700E1D94D /* Products */,
+				802F628F12F2860A719FC0EA /* Pods */,
+				1E6084028A1B7B9F191DE0F2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E4EA07631F7BDB0700E1D94D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4EA07621F7BDB0700E1D94D /* TYPageDemo.app */,
+				E4EA077B1F7BDB0700E1D94D /* TYPageDemoTests.xctest */,
+				E4EA07861F7BDB0700E1D94D /* TYPageDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4EA07641F7BDB0700E1D94D /* TYPageDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E4EA07681F7BDB0700E1D94D /* AppDelegate.h */,
+				E4EA07691F7BDB0700E1D94D /* AppDelegate.m */,
+				E4EA076B1F7BDB0700E1D94D /* ViewController.h */,
+				E4EA076C1F7BDB0700E1D94D /* ViewController.m */,
+				E4EA079B1F7BDDD100E1D94D /* MyPageController.h */,
+				E4EA079C1F7BDDD100E1D94D /* MyPageController.m */,
+				E4EA07A11F7BE3B100E1D94D /* PageViewController.h */,
+				E4EA07A21F7BE3B100E1D94D /* PageViewController.m */,
+				E4EA079E1F7BDEFD00E1D94D /* NewViewController.h */,
+				E4EA079F1F7BDEFD00E1D94D /* NewViewController.m */,
+				E4EA07A41F7BE5F500E1D94D /* MyNavigationController.h */,
+				E4EA07A51F7BE5F500E1D94D /* MyNavigationController.m */,
+				E4EA07711F7BDB0700E1D94D /* Assets.xcassets */,
+				E4EA07731F7BDB0700E1D94D /* LaunchScreen.storyboard */,
+				E4EA07761F7BDB0700E1D94D /* Info.plist */,
+				E4EA07651F7BDB0700E1D94D /* Supporting Files */,
+			);
+			path = TYPageDemo;
+			sourceTree = "<group>";
+		};
+		E4EA07651F7BDB0700E1D94D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4EA07661F7BDB0700E1D94D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E4EA077E1F7BDB0700E1D94D /* TYPageDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E4EA077F1F7BDB0700E1D94D /* TYPageDemoTests.m */,
+				E4EA07811F7BDB0700E1D94D /* Info.plist */,
+			);
+			path = TYPageDemoTests;
+			sourceTree = "<group>";
+		};
+		E4EA07891F7BDB0700E1D94D /* TYPageDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E4EA078A1F7BDB0700E1D94D /* TYPageDemoUITests.m */,
+				E4EA078C1F7BDB0700E1D94D /* Info.plist */,
+			);
+			path = TYPageDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4EA07611F7BDB0700E1D94D /* TYPageDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4EA078F1F7BDB0700E1D94D /* Build configuration list for PBXNativeTarget "TYPageDemo" */;
+			buildPhases = (
+				14B86224F036CE4750D8B723 /* [CP] Check Pods Manifest.lock */,
+				E4EA075E1F7BDB0700E1D94D /* Sources */,
+				E4EA075F1F7BDB0700E1D94D /* Frameworks */,
+				E4EA07601F7BDB0700E1D94D /* Resources */,
+				45E39AD10E8FD358AEEF78E9 /* [CP] Embed Pods Frameworks */,
+				E0AAF26FE3EC9C54194DC69F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TYPageDemo;
+			productName = TYPageDemo;
+			productReference = E4EA07621F7BDB0700E1D94D /* TYPageDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E4EA077A1F7BDB0700E1D94D /* TYPageDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4EA07921F7BDB0700E1D94D /* Build configuration list for PBXNativeTarget "TYPageDemoTests" */;
+			buildPhases = (
+				E4EA07771F7BDB0700E1D94D /* Sources */,
+				E4EA07781F7BDB0700E1D94D /* Frameworks */,
+				E4EA07791F7BDB0700E1D94D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4EA077D1F7BDB0700E1D94D /* PBXTargetDependency */,
+			);
+			name = TYPageDemoTests;
+			productName = TYPageDemoTests;
+			productReference = E4EA077B1F7BDB0700E1D94D /* TYPageDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E4EA07851F7BDB0700E1D94D /* TYPageDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4EA07951F7BDB0700E1D94D /* Build configuration list for PBXNativeTarget "TYPageDemoUITests" */;
+			buildPhases = (
+				E4EA07821F7BDB0700E1D94D /* Sources */,
+				E4EA07831F7BDB0700E1D94D /* Frameworks */,
+				E4EA07841F7BDB0700E1D94D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4EA07881F7BDB0700E1D94D /* PBXTargetDependency */,
+			);
+			name = TYPageDemoUITests;
+			productName = TYPageDemoUITests;
+			productReference = E4EA07861F7BDB0700E1D94D /* TYPageDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4EA075A1F7BDB0700E1D94D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "meng li";
+				TargetAttributes = {
+					E4EA07611F7BDB0700E1D94D = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = AVDM6B7733;
+						ProvisioningStyle = Automatic;
+					};
+					E4EA077A1F7BDB0700E1D94D = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = AVDM6B7733;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E4EA07611F7BDB0700E1D94D;
+					};
+					E4EA07851F7BDB0700E1D94D = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = AVDM6B7733;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E4EA07611F7BDB0700E1D94D;
+					};
+				};
+			};
+			buildConfigurationList = E4EA075D1F7BDB0700E1D94D /* Build configuration list for PBXProject "TYPageDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E4EA07591F7BDB0700E1D94D;
+			productRefGroup = E4EA07631F7BDB0700E1D94D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4EA07611F7BDB0700E1D94D /* TYPageDemo */,
+				E4EA077A1F7BDB0700E1D94D /* TYPageDemoTests */,
+				E4EA07851F7BDB0700E1D94D /* TYPageDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4EA07601F7BDB0700E1D94D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4EA07751F7BDB0700E1D94D /* LaunchScreen.storyboard in Resources */,
+				E4EA07721F7BDB0700E1D94D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4EA07791F7BDB0700E1D94D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4EA07841F7BDB0700E1D94D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14B86224F036CE4750D8B723 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		45E39AD10E8FD358AEEF78E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TYPageDemo/Pods-TYPageDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0AAF26FE3EC9C54194DC69F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TYPageDemo/Pods-TYPageDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4EA075E1F7BDB0700E1D94D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4EA079D1F7BDDD100E1D94D /* MyPageController.m in Sources */,
+				E4EA07A61F7BE5F500E1D94D /* MyNavigationController.m in Sources */,
+				E4EA076D1F7BDB0700E1D94D /* ViewController.m in Sources */,
+				E4EA07A01F7BDEFD00E1D94D /* NewViewController.m in Sources */,
+				E4EA076A1F7BDB0700E1D94D /* AppDelegate.m in Sources */,
+				E4EA07671F7BDB0700E1D94D /* main.m in Sources */,
+				E4EA07A31F7BE3B100E1D94D /* PageViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4EA07771F7BDB0700E1D94D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4EA07801F7BDB0700E1D94D /* TYPageDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4EA07821F7BDB0700E1D94D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4EA078B1F7BDB0700E1D94D /* TYPageDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4EA077D1F7BDB0700E1D94D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4EA07611F7BDB0700E1D94D /* TYPageDemo */;
+			targetProxy = E4EA077C1F7BDB0700E1D94D /* PBXContainerItemProxy */;
+		};
+		E4EA07881F7BDB0700E1D94D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4EA07611F7BDB0700E1D94D /* TYPageDemo */;
+			targetProxy = E4EA07871F7BDB0700E1D94D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E4EA07731F7BDB0700E1D94D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4EA07741F7BDB0700E1D94D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E4EA078D1F7BDB0700E1D94D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E4EA078E1F7BDB0700E1D94D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4EA07901F7BDB0700E1D94D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D537A2D8DB2B5EDA45933DD /* Pods-TYPageDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AVDM6B7733;
+				INFOPLIST_FILE = TYPageDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jjg.limeng.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E4EA07911F7BDB0700E1D94D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 553389E3D686EC3FE057AABE /* Pods-TYPageDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AVDM6B7733;
+				INFOPLIST_FILE = TYPageDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jjg.limeng.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E4EA07931F7BDB0700E1D94D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = AVDM6B7733;
+				INFOPLIST_FILE = TYPageDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jjg.TYPageDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TYPageDemo.app/TYPageDemo";
+			};
+			name = Debug;
+		};
+		E4EA07941F7BDB0700E1D94D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = AVDM6B7733;
+				INFOPLIST_FILE = TYPageDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jjg.TYPageDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TYPageDemo.app/TYPageDemo";
+			};
+			name = Release;
+		};
+		E4EA07961F7BDB0700E1D94D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = AVDM6B7733;
+				INFOPLIST_FILE = TYPageDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jjg.TYPageDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TYPageDemo;
+			};
+			name = Debug;
+		};
+		E4EA07971F7BDB0700E1D94D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = AVDM6B7733;
+				INFOPLIST_FILE = TYPageDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jjg.TYPageDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TYPageDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4EA075D1F7BDB0700E1D94D /* Build configuration list for PBXProject "TYPageDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4EA078D1F7BDB0700E1D94D /* Debug */,
+				E4EA078E1F7BDB0700E1D94D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4EA078F1F7BDB0700E1D94D /* Build configuration list for PBXNativeTarget "TYPageDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4EA07901F7BDB0700E1D94D /* Debug */,
+				E4EA07911F7BDB0700E1D94D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4EA07921F7BDB0700E1D94D /* Build configuration list for PBXNativeTarget "TYPageDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4EA07931F7BDB0700E1D94D /* Debug */,
+				E4EA07941F7BDB0700E1D94D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4EA07951F7BDB0700E1D94D /* Build configuration list for PBXNativeTarget "TYPageDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4EA07961F7BDB0700E1D94D /* Debug */,
+				E4EA07971F7BDB0700E1D94D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4EA075A1F7BDB0700E1D94D /* Project object */;
+}

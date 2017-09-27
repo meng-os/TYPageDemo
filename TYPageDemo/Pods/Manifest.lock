@@ -1,0 +1,21 @@
+PODS:
+  - TYPagerController (2.0.2)
+
+DEPENDENCIES:
+  - TYPagerController (from `https://github.com/12207480/TYPagerController.git`)
+
+EXTERNAL SOURCES:
+  TYPagerController:
+    :git: https://github.com/12207480/TYPagerController.git
+
+CHECKOUT OPTIONS:
+  TYPagerController:
+    :commit: 84dcc7b0102c3ccf9332a60ec665e6ee03b68f8e
+    :git: https://github.com/12207480/TYPagerController.git
+
+SPEC CHECKSUMS:
+  TYPagerController: c04d27f46007aefe5055dbe6710fcf7e74da0dc3
+
+PODFILE CHECKSUM: 25ab1fe8c4dc9d39300b697712e455329837d1c8
+
+COCOAPODS: 1.2.1

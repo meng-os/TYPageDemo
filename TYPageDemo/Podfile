@@ -1,0 +1,6 @@
+#xcodeproj 'TYPageDemo.xcodeproj'
+
+platform :ios, '8.0'
+target 'TYPageDemo' do
+	pod 'TYPagerController', :git => "https://github.com/12207480/TYPagerController.git"
+end
